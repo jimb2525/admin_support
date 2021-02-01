@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_paha_admin_suppo_client_matters" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client_matter_name</element>
+            <list_id display_value="x_paha_admin_suppo_client_matters" element="NULL" name="x_paha_admin_suppo_client_matters" parent="NULL" relationship="NULL" sys_domain="global" view="676852521b30201077bc2f092a4bcb30">e32b04d01b1d201077bc2f092a4bcb62</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 02:06:35</sys_created_on>
+            <sys_id>bf2b04d01b1d201077bc2f092a4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 02:06:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client_matter_number</element>
+            <list_id display_value="x_paha_admin_suppo_client_matters" element="NULL" name="x_paha_admin_suppo_client_matters" parent="NULL" relationship="NULL" sys_domain="global" view="676852521b30201077bc2f092a4bcb30">e32b04d01b1d201077bc2f092a4bcb62</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 02:06:35</sys_created_on>
+            <sys_id>332b04d01b1d201077bc2f092a4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 02:06:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_paha_admin_suppo_client_matters</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 02:06:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e32b04d01b1d201077bc2f092a4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_paha_admin_suppo_client_matters</sys_name>
+            <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+            <sys_update_name>sys_ui_list_x_paha_admin_suppo_client_matters_sys_ref_list</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 02:06:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">676852521b30201077bc2f092a4bcb30</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

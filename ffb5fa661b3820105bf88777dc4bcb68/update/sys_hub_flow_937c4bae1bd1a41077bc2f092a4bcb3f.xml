@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch4-11-25-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>send_email_on_declined_work</internal_name>
+        <label_cache>[{"name":"Updated_1.current.opened_by.u_team_lead.email","label":"Trigger➛Job Record➛Opened by➛Resource Team Lead➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"c2c63c98-a463-4ce7-9412-8c0684b69016.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Job Record","reference":"x_paha_admin_suppo_job","reference_display":"Job","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.opened_by","label":"Trigger➛Job Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_paha_admin_suppo_job","column_name":"opened_by"},{"name":"Updated_1.current.number","label":"Trigger➛Job Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_paha_admin_suppo_job","column_name":"number"},{"name":"Updated_1.current.opened_by.first_name","label":"Trigger➛Job Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.short_description","label":"Trigger➛Job Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_paha_admin_suppo_job","column_name":"short_description"}]</label_cache>
+        <latest_snapshot>164f089c1b7da01077bc2f092a4bcb91</latest_snapshot>
+        <master_snapshot>e4b93bae1b55a41077bc2f092a4bcbc8</master_snapshot>
+        <name>Send email on Declined Work</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>09b97bae1b55a41077bc2f092a4bcb23</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 15:57:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>937c4bae1bd1a41077bc2f092a4bcb3f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Send email on Declined Work</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_hub_flow_937c4bae1bd1a41077bc2f092a4bcb3f</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=937c4bae1bd1a41077bc2f092a4bcb3f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=937c4bae1bd1a41077bc2f092a4bcb3f"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_paha_admin_suppo_job">stateCHANGESFROM-5^stateCHANGESTO1<item display_value="Pending" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="-5"/>
+            <item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="1"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09b97bae1b55a41077bc2f092a4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <table>x_paha_admin_suppo_job</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"8db97bae1b55a41077bc2f092a4bcb23","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>937c4bae1bd1a41077bc2f092a4bcb3f</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:02</sys_created_on>
+        <sys_id>8db97bae1b55a41077bc2f092a4bcb23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <trigger display_value="">09b97bae1b55a41077bc2f092a4bcb23</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>8db97bae1b55a41077bc2f092a4bcb23</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:02</sys_created_on>
+        <sys_id>01b97bae1b55a41077bc2f092a4bcb24</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT IN8db97bae1b55a41077bc2f092a4bcb23"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT INef4ecfee1bd1a41077bc2f092a4bcba9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send email on Declined Work">937c4bae1bd1a41077bc2f092a4bcb3f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>ef4ecfee1bd1a41077bc2f092a4bcba9</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>andrew.och</sys_updated_by>
+        <sys_updated_on>2021-01-14 22:55:57</sys_updated_on>
+        <ui_id>c2c63c98-a463-4ce7-9412-8c0684b69016</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ef4ecfee1bd1a41077bc2f092a4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ef4ecfee1bd1a41077bc2f092a4bcba9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>a34ecfee1bd1a41077bc2f092a4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <value>x_paha_admin_suppo_job</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ef4ecfee1bd1a41077bc2f092a4bcba9</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>ef4ecfee1bd1a41077bc2f092a4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ef4ecfee1bd1a41077bc2f092a4bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>a74ecfee1bd1a41077bc2f092a4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:36d11ef9-0389-44ed-b11c-054af161bed1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:36d11ef9-0389-44ed-b11c-054af161bed1}}"&gt;Trigger➛Job Record➛Opened by➛First name&lt;button id="transform_function_facade_36d11ef9-0389-44ed-b11c-054af161bed1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Job&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e}}"&gt;Trigger➛Job Record➛Number&lt;button id="transform_function_facade_e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:607701a9-55ad-4b36-a4ed-2d27efbd2812}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:607701a9-55ad-4b36-a4ed-2d27efbd2812}}"&gt;Trigger➛Job Record➛Short description&lt;button id="transform_function_facade_607701a9-55ad-4b36-a4ed-2d27efbd2812" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;, has been declined.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:13:06</sys_created_on>
+        <sys_id>ac4973ae1b55a41077bc2f092a4bcbad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:14:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.opened_by.u_team_lead.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>6f4ecfee1bd1a41077bc2f092a4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Job {{Updated_1.current.number}} has been declined</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>6f4ecfee1bd1a41077bc2f092a4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.opened_by}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>6b4ecfee1bd1a41077bc2f092a4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>ab4ecfee1bd1a41077bc2f092a4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT INef4ecfee1bd1a41077bc2f092a4bcba1"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send email on Declined Work">937c4bae1bd1a41077bc2f092a4bcb3f</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>ef4ecfee1bd1a41077bc2f092a4bcba1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ef4ecfee1bd1a41077bc2f092a4bcba1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ef4ecfee1bd1a41077bc2f092a4bcba1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>2f4ecfee1bd1a41077bc2f092a4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:25</sys_updated_on>
+        <value>stateCHANGESFROM-5^stateCHANGESTO1</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ef4ecfee1bd1a41077bc2f092a4bcba1</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>a34ecfee1bd1a41077bc2f092a4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:25</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ef4ecfee1bd1a41077bc2f092a4bcba1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>ef4ecfee1bd1a41077bc2f092a4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:25</sys_updated_on>
+        <value>x_paha_admin_suppo_job</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT IN177c4bae1bd1a41077bc2f092a4bcb42"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>937c4bae1bd1a41077bc2f092a4bcb3f</id>
+        <name>Send email on Declined Work</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 15:57:29</sys_created_on>
+        <sys_id>177c4bae1bd1a41077bc2f092a4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 15:57:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT IN174ecfee1bd1a41077bc2f092a4bcb94,274ecfee1bd1a41077bc2f092a4bcb9a,5f4ecfee1bd1a41077bc2f092a4bcb8a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDc1b97bae6b55a410c90e894ef9105f2e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Send email on Declined Work">937c4bae1bd1a41077bc2f092a4bcb3f</model>
+        <model_id>937c4bae1bd1a41077bc2f092a4bcb3f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_937c4bae1bd1a41077bc2f092a4bcb3f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>174ecfee1bd1a41077bc2f092a4bcb94</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Send email on Declined Work">937c4bae1bd1a41077bc2f092a4bcb3f</model>
+        <model_id>937c4bae1bd1a41077bc2f092a4bcb3f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_937c4bae1bd1a41077bc2f092a4bcb3f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>274ecfee1bd1a41077bc2f092a4bcb9a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Send email on Declined Work">937c4bae1bd1a41077bc2f092a4bcb3f</model>
+        <model_id>937c4bae1bd1a41077bc2f092a4bcb3f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_937c4bae1bd1a41077bc2f092a4bcb3f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>5f4ecfee1bd1a41077bc2f092a4bcb8a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT INef4ecfee1bd1a41077bc2f092a4bcba9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send email on Declined Work">937c4bae1bd1a41077bc2f092a4bcb3f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>ef4ecfee1bd1a41077bc2f092a4bcba9</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>andrew.och</sys_updated_by>
+        <sys_updated_on>2021-01-14 22:55:57</sys_updated_on>
+        <ui_id>c2c63c98-a463-4ce7-9412-8c0684b69016</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ef4ecfee1bd1a41077bc2f092a4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ef4ecfee1bd1a41077bc2f092a4bcba9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>a34ecfee1bd1a41077bc2f092a4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <value>x_paha_admin_suppo_job</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ef4ecfee1bd1a41077bc2f092a4bcba9</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>ef4ecfee1bd1a41077bc2f092a4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ef4ecfee1bd1a41077bc2f092a4bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>a74ecfee1bd1a41077bc2f092a4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:36d11ef9-0389-44ed-b11c-054af161bed1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:36d11ef9-0389-44ed-b11c-054af161bed1}}"&gt;Trigger➛Job Record➛Opened by➛First name&lt;button id="transform_function_facade_36d11ef9-0389-44ed-b11c-054af161bed1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Job&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e}}"&gt;Trigger➛Job Record➛Number&lt;button id="transform_function_facade_e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:607701a9-55ad-4b36-a4ed-2d27efbd2812}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:607701a9-55ad-4b36-a4ed-2d27efbd2812}}"&gt;Trigger➛Job Record➛Short description&lt;button id="transform_function_facade_607701a9-55ad-4b36-a4ed-2d27efbd2812" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;, has been declined.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:13:06</sys_created_on>
+        <sys_id>ac4973ae1b55a41077bc2f092a4bcbad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:14:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.opened_by.u_team_lead.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>6f4ecfee1bd1a41077bc2f092a4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Job {{Updated_1.current.number}} has been declined</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>6f4ecfee1bd1a41077bc2f092a4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.opened_by}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>6b4ecfee1bd1a41077bc2f092a4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ef4ecfee1bd1a41077bc2f092a4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>ab4ecfee1bd1a41077bc2f092a4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT IN274ecfee1bd1a41077bc2f092a4bcbca,e74ecfee1bd1a41077bc2f092a4bcbca,eb4ecfee1bd1a41077bc2f092a4bcbc9"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>937c4bae1bd1a41077bc2f092a4bcb3f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>274ecfee1bd1a41077bc2f092a4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>937c4bae1bd1a41077bc2f092a4bcb3f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>e74ecfee1bd1a41077bc2f092a4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>607701a9-55ad-4b36-a4ed-2d27efbd2812</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>937c4bae1bd1a41077bc2f092a4bcb3f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.opened_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:26</sys_created_on>
+        <sys_id>eb4ecfee1bd1a41077bc2f092a4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>36d11ef9-0389-44ed-b11c-054af161bed1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT IN2b4ecfee1bd1a41077bc2f092a4bcb9e,6f4ecfee1bd1a41077bc2f092a4bcb98,d74ecfee1bd1a41077bc2f092a4bcb92"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_937c4bae1bd1a41077bc2f092a4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>2b4ecfee1bd1a41077bc2f092a4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_937c4bae1bd1a41077bc2f092a4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>6f4ecfee1bd1a41077bc2f092a4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_937c4bae1bd1a41077bc2f092a4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 16:05:25</sys_created_on>
+        <sys_id>d74ecfee1bd1a41077bc2f092a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 16:05:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=937c4bae1bd1a41077bc2f092a4bcb3f^sys_idNOT IN1559f3ae1b55a41077bc2f092a4bcb4d"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"1559f3ae1b55a41077bc2f092a4bcb4d","name":"plan"}}</plan>
+        <plan_id>937c4bae1bd1a41077bc2f092a4bcb3f</plan_id>
+        <snapshot>164f089c1b7da01077bc2f092a4bcb91</snapshot>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:13:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1559f3ae1b55a41077bc2f092a4bcb4d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <trigger display_value="">09b97bae1b55a41077bc2f092a4bcb23</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>send_email_on_declined_work</internal_name>
+        <label_cache>[{"name":"Updated_1.current.opened_by.u_team_lead.email","label":"Trigger➛Job Record➛Opened by➛Resource Team Lead➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"c2c63c98-a463-4ce7-9412-8c0684b69016.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Job Record","reference":"x_paha_admin_suppo_job","reference_display":"Job","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.opened_by","label":"Trigger➛Job Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_paha_admin_suppo_job","column_name":"opened_by"},{"name":"Updated_1.current.number","label":"Trigger➛Job Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_paha_admin_suppo_job","column_name":"number"},{"name":"Updated_1.current.opened_by.first_name","label":"Trigger➛Job Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.short_description","label":"Trigger➛Job Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_paha_admin_suppo_job","column_name":"short_description"}]</label_cache>
+        <master>true</master>
+        <name>Send email on Declined Work</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Send email on Declined Work">937c4bae1bd1a41077bc2f092a4bcb3f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4b93bae1b55a41077bc2f092a4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:00</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e4b93bae1b55a41077bc2f092a4bcbc8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e4b93bae1b55a41077bc2f092a4bcbc8"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=e4b93bae1b55a41077bc2f092a4bcbc8^sys_idNOT INf8b93bae1b55a41077bc2f092a4bcbfa"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send email on Declined Work">e4b93bae1b55a41077bc2f092a4bcbc8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>f8b93bae1b55a41077bc2f092a4bcbfa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <ui_id>c2c63c98-a463-4ce7-9412-8c0684b69016</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f8b93bae1b55a41077bc2f092a4bcbfa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8b93bae1b55a41077bc2f092a4bcbfa</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>b8b93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <value>x_paha_admin_suppo_job</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8b93bae1b55a41077bc2f092a4bcbfa</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>f4b93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f8b93bae1b55a41077bc2f092a4bcbfa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>78b93bae1b55a41077bc2f092a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:36d11ef9-0389-44ed-b11c-054af161bed1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:36d11ef9-0389-44ed-b11c-054af161bed1}}"&gt;Trigger➛Job Record➛Opened by➛First name&lt;button id="transform_function_facade_36d11ef9-0389-44ed-b11c-054af161bed1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Job&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e}}"&gt;Trigger➛Job Record➛Number&lt;button id="transform_function_facade_e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:607701a9-55ad-4b36-a4ed-2d27efbd2812}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:607701a9-55ad-4b36-a4ed-2d27efbd2812}}"&gt;Trigger➛Job Record➛Short description&lt;button id="transform_function_facade_607701a9-55ad-4b36-a4ed-2d27efbd2812" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;, has been declined.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>74b93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.opened_by.u_team_lead.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>b0b93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Job {{Updated_1.current.number}} has been declined</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>b4b93bae1b55a41077bc2f092a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.opened_by}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>3cb93bae1b55a41077bc2f092a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>fcb93bae1b55a41077bc2f092a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e4b93bae1b55a41077bc2f092a4bcbc8^sys_idNOT INbcb93bae1b55a41077bc2f092a4bcbfd"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send email on Declined Work">e4b93bae1b55a41077bc2f092a4bcbc8</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>bcb93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:02</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bcb93bae1b55a41077bc2f092a4bcbfd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bcb93bae1b55a41077bc2f092a4bcbfd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>38b93bae1b55a41077bc2f092a4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <value>stateCHANGESFROM-5^stateCHANGESTO1</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bcb93bae1b55a41077bc2f092a4bcbfd</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>74b93bae1b55a41077bc2f092a4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bcb93bae1b55a41077bc2f092a4bcbfd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>f8b93bae1b55a41077bc2f092a4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <value>x_paha_admin_suppo_job</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e4b93bae1b55a41077bc2f092a4bcbc8^sys_idNOT INecb93bae1b55a41077bc2f092a4bcbc8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e4b93bae1b55a41077bc2f092a4bcbc8</id>
+        <name>Send email on Declined Work</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:00</sys_created_on>
+        <sys_id>ecb93bae1b55a41077bc2f092a4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:00</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=e4b93bae1b55a41077bc2f092a4bcbc8^sys_idNOT IN20b93bae1b55a41077bc2f092a4bcbe6,a4b93bae1b55a41077bc2f092a4bcbdb,acb93bae1b55a41077bc2f092a4bcbcb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Send email on Declined Work">e4b93bae1b55a41077bc2f092a4bcbc8</model>
+        <model_id>e4b93bae1b55a41077bc2f092a4bcbc8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e4b93bae1b55a41077bc2f092a4bcbc8</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:00</sys_created_on>
+        <sys_id>20b93bae1b55a41077bc2f092a4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDa8b93baecd55a410a2cf4cf9474e48c9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Send email on Declined Work">e4b93bae1b55a41077bc2f092a4bcbc8</model>
+        <model_id>e4b93bae1b55a41077bc2f092a4bcbc8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e4b93bae1b55a41077bc2f092a4bcbc8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:00</sys_created_on>
+        <sys_id>a4b93bae1b55a41077bc2f092a4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Send email on Declined Work">e4b93bae1b55a41077bc2f092a4bcbc8</model>
+        <model_id>e4b93bae1b55a41077bc2f092a4bcbc8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e4b93bae1b55a41077bc2f092a4bcbc8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:00</sys_created_on>
+        <sys_id>acb93bae1b55a41077bc2f092a4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e4b93bae1b55a41077bc2f092a4bcbc8^sys_idNOT INf8b93bae1b55a41077bc2f092a4bcbfa"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send email on Declined Work">e4b93bae1b55a41077bc2f092a4bcbc8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>f8b93bae1b55a41077bc2f092a4bcbfa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <ui_id>c2c63c98-a463-4ce7-9412-8c0684b69016</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f8b93bae1b55a41077bc2f092a4bcbfa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8b93bae1b55a41077bc2f092a4bcbfa</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>b8b93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <value>x_paha_admin_suppo_job</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8b93bae1b55a41077bc2f092a4bcbfa</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>f4b93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f8b93bae1b55a41077bc2f092a4bcbfa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>78b93bae1b55a41077bc2f092a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:36d11ef9-0389-44ed-b11c-054af161bed1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:36d11ef9-0389-44ed-b11c-054af161bed1}}"&gt;Trigger➛Job Record➛Opened by➛First name&lt;button id="transform_function_facade_36d11ef9-0389-44ed-b11c-054af161bed1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Job&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e}}"&gt;Trigger➛Job Record➛Number&lt;button id="transform_function_facade_e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:607701a9-55ad-4b36-a4ed-2d27efbd2812}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:607701a9-55ad-4b36-a4ed-2d27efbd2812}}"&gt;Trigger➛Job Record➛Short description&lt;button id="transform_function_facade_607701a9-55ad-4b36-a4ed-2d27efbd2812" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;, has been declined.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>74b93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.opened_by.u_team_lead.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>b0b93bae1b55a41077bc2f092a4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Job {{Updated_1.current.number}} has been declined</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>b4b93bae1b55a41077bc2f092a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.opened_by}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>3cb93bae1b55a41077bc2f092a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f8b93bae1b55a41077bc2f092a4bcbfa</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>fcb93bae1b55a41077bc2f092a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e4b93bae1b55a41077bc2f092a4bcbc8^sys_idNOT IN30b97bae1b55a41077bc2f092a4bcb00,b0b97bae1b55a41077bc2f092a4bcb00,bcb93bae1b55a41077bc2f092a4bcbff"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e4b93bae1b55a41077bc2f092a4bcbc8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.opened_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>30b97bae1b55a41077bc2f092a4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>36d11ef9-0389-44ed-b11c-054af161bed1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e4b93bae1b55a41077bc2f092a4bcbc8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>b0b97bae1b55a41077bc2f092a4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e6c7eeed-b07b-4cf6-93d2-e53bb0716e1e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e4b93bae1b55a41077bc2f092a4bcbc8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>bcb93bae1b55a41077bc2f092a4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>607701a9-55ad-4b36-a4ed-2d27efbd2812</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e4b93bae1b55a41077bc2f092a4bcbc8^sys_idNOT IN64b93bae1b55a41077bc2f092a4bcbd7,74b93bae1b55a41077bc2f092a4bcbec,ecb93bae1b55a41077bc2f092a4bcbe1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e4b93bae1b55a41077bc2f092a4bcbc8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:00</sys_created_on>
+        <sys_id>64b93bae1b55a41077bc2f092a4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e4b93bae1b55a41077bc2f092a4bcbc8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:01</sys_created_on>
+        <sys_id>74b93bae1b55a41077bc2f092a4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e4b93bae1b55a41077bc2f092a4bcbc8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-28 19:15:00</sys_created_on>
+        <sys_id>ecb93bae1b55a41077bc2f092a4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-28 19:15:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

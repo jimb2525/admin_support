@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_paha_admin_suppo.job_tasks_user" name="x_paha_admin_suppo.job_tasks_user">a7da2bf21bb060105bf88777dc4bcbb7</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-04 16:17:18</sys_created_on>
+        <sys_id>e7da2bf21bb060105bf88777dc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a7da2bf21bb060105bf88777dc4bcbb7</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e7da2bf21bb060105bf88777dc4bcbbb</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-04 16:17:18</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Check Request CR Expense-Send  APemail</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Send  AP email</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-11 15:02:05</sys_created_on>
+        <sys_id>509cd7051b8964105bf88777dc4bcb3b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Check Request CR Expense-Send  APemail</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_template_509cd7051b8964105bf88777dc4bcb3b</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-11 15:03:02</sys_updated_on>
+        <table>x_paha_admin_suppo_job_tasks</table>
+        <template>active=true^priority=4^state=1^EQ</template>
+        <user display_value="James Belote">d0e4f2661b3820105bf88777dc4bcb52</user>
+        <view/>
+    </sys_template>
+</record_update>

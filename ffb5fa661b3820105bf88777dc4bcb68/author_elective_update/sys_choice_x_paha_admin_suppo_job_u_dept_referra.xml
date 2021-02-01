@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_dept_referra" table="x_paha_admin_suppo_job" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_dept_referra</element>
+            <name>x_paha_admin_suppo_job</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-16 22:08:25</sys_created_on>
+            <sys_id>374e26361b45a81077bc2f092a4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_dept_referra</sys_name>
+            <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+            <sys_update_name>sys_choice_x_paha_admin_suppo_job_u_dept_referra</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-16 22:08:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bdev</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-16 22:08:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>774e26361b45a81077bc2f092a4bcbd4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:38:24</sys_updated_on>
+            <value>bdev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conflicts</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>2</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-16 22:08:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>374e26361b45a81077bc2f092a4bcbd6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:38:44</sys_updated_on>
+            <value>conflicts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corp Social Responsibility</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>3</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15e48c5c1bd9201077bc2f092a4bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:39:27</sys_updated_on>
+            <value>corp_social_responsibility</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Court &amp; Calendar Resources</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>4</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:40:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b35009c1bd9201077bc2f092a4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:40:48</sys_updated_on>
+            <value>court_and_calendar_resources</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSC</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>5</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:40:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c058c5c1bd9201077bc2f092a4bcb29</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:40:22</sys_updated_on>
+            <value>csc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DPS</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>6</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-16 22:08:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb4e26361b45a81077bc2f092a4bcbd1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:41:05</sys_updated_on>
+            <value>dps</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DSAI</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>7</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:41:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae65809c1bd9201077bc2f092a4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:41:23</sys_updated_on>
+            <value>dsai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finance</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>8</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:41:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb75809c1bd9201077bc2f092a4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:41:45</sys_updated_on>
+            <value>finance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>9</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:41:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d385c09c1bd9201077bc2f092a4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:41:59</sys_updated_on>
+            <value>it</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paralegal/OTK</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>10</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:42:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33b5049c1bd9201077bc2f092a4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:42:50</sys_updated_on>
+            <value>paralegal_otk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Practice Innovation</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>11</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:43:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cd5c09c1bd9201077bc2f092a4bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:43:09</sys_updated_on>
+            <value>practice_innovation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>12</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:43:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbd5849c1bd9201077bc2f092a4bcb6f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:43:30</sys_updated_on>
+            <value>self</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Talent Management</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>13</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:43:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1f5089c1bd9201077bc2f092a4bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:43:47</sys_updated_on>
+            <value>talent_management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_dept_referra</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Williams Lea</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence>14</sequence>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2020-12-21 01:44:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e06849c1bd9201077bc2f092a4bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2020-12-21 01:44:05</sys_updated_on>
+            <value>williams_lea</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

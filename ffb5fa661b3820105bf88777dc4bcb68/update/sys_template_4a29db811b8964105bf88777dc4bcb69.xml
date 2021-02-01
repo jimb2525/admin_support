@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Check Request CR Process - Expense</name>
+        <next/>
+        <next_child display_value="Check Request CR Expense - Check AP">33dbd3051b8964105bf88777dc4bcb3e</next_child>
+        <roles/>
+        <short_description>Check Request CR Process - Expense</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-11 14:48:24</sys_created_on>
+        <sys_id>4a29db811b8964105bf88777dc4bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Check Request CR Process - Expense</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_template_4a29db811b8964105bf88777dc4bcb69</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-11 15:02:29</sys_updated_on>
+        <table>x_paha_admin_suppo_job</table>
+        <template>active=true^impact=2^state=1^u_category=finance^subcategory=check_request_chrome_river_process_expense^EQ</template>
+        <user display_value="James Belote">d0e4f2661b3820105bf88777dc4bcb52</user>
+        <view/>
+    </sys_template>
+</record_update>

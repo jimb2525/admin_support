@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Job" max_length="40" name="x_paha_admin_suppo_job" sizeclass="51" text_index="true" type="collection">
+        <element choice="1" label="Client" mandatory="true" max_length="40" name="client" type="choice">
+            <choice/>
+        </element>
+        <element label="Client Number" mandatory="true" max_length="100" name="client_number" type="string"/>
+        <element label="Declined Work" max_length="40" name="declined_work" type="boolean"/>
+        <element display="true" label="Matter Name" mandatory="true" max_length="32" name="matter_name" reference="x_paha_admin_suppo_client_matters" type="reference"/>
+        <element label="Matter Number" mandatory="true" max_length="32" name="matter_number" reference="x_paha_admin_suppo_client_matters" type="reference"/>
+        <element choice="1" dependent="u_category" dependent_on_field="u_category" label="Task" mandatory="true" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="administrative" inactive_on_update="false" label="Audit Letter Process" sequence="100" value="audit_letter_process"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Billing Rates" sequence="101" value="billing_rates"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Bios" sequence="102" value="bios"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Budget reporting - Spreadsheets - Monitor" sequence="103" value="budget_reporting_spreadsheets_monitor"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Calendar Coordination and Scheduling" sequence="104" value="calendar_coordination_and_scheduling"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Carpe Diem Input - Entries - Changes - Close Time" sequence="105" value="carpe_diem_input_entries_changes"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Check Request" sequence="106" value="check_request"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Clearance Tasks" sequence="107" value="clearance_tasks"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Client Alerts" sequence="108" value="client_alerts"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Client Billing Inquiries" sequence="109" value="client_billing_inquiries"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Collections" sequence="110" value="collections"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Conflict Check" sequence="111" value="conflict_check"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Copy/Print/Scan Requests" sequence="112" value="copy_print_scan_requests"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Correspondence - Creation / delivery of information / response" sequence="113" value="correspondence"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Courier Services" sequence="114" value="courier_services"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Document Processing" sequence="115" value="document_processing"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Event Planning - Mailing Lists - Event Coordination" sequence="116" value="event_plannnig_mailing_lists_event_coordination"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="General Finance Dept Inquiries" sequence="117" value="general_finance_dept_inquiries"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Imanage projects - client electronic file projects" sequence="118" value="imanage_projects"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="MCLE Questions" sequence="119" value="mcle_questions"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="NBIS Process" sequence="120" value="nbis_process"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Notarize" sequence="121" value="notarize"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Office Services Requests" sequence="122" value="office_services_requests"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Operations/Facilities requests" sequence="123" value="operations_facilities_requests"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Pitch" sequence="124" value="pitch"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Proforma: Final proofing/invoicing, client transmittal" sequence="125" value="proforma_final_proofing"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Proforma:  Print, distribute, edit, submit to Finance" sequence="126" value="proforma_print"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Reports" sequence="127" value="reports"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Technology Requests" sequence="128" value="technology_requests"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Timekeeper Questions/Reports" sequence="129" value="timekeeper_questions"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Transcription" sequence="130" value="transcription"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Travel" sequence="131" value="travel"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Troubleshooting - describe" sequence="132" value="troubleshooting"/>
+                <element dependent_value="administrative" inactive_on_update="false" label="Other" sequence="133" value="other"/>
+                <element dependent_value="litigation" inactive_on_update="false" label="Calendar Coordination and Scheduling" sequence="201" value="calendar_coordination"/>
+                <element dependent_value="litigation" inactive_on_update="false" label="Create/Prepare" sequence="202" value="create_prepare"/>
+                <element dependent_value="litigation" inactive_on_update="false" label="Facilitate" sequence="203" value="facilitate"/>
+                <element dependent_value="litigation" inactive_on_update="false" label="Filings" sequence="204" value="filings"/>
+                <element dependent_value="litigation" inactive_on_update="false" label="Other" sequence="205" value="other"/>
+                <element dependent_value="transactional" inactive_on_update="false" label="Calendar Coordination and Schedulng" sequence="301" value="calendar_coordination_and_scheduling"/>
+                <element dependent_value="transactional" inactive_on_update="false" label="Create/Prepare" sequence="302" value="create_prepare"/>
+                <element dependent_value="transactional" inactive_on_update="false" label="ECB Coordination" sequence="303" value="ecb_coordination"/>
+                <element dependent_value="transactional" inactive_on_update="false" label="Facilitate" sequence="304" value="facilitate"/>
+                <element dependent_value="transactional" inactive_on_update="false" label="Filings" sequence="305" value="filings"/>
+                <element dependent_value="transactional" inactive_on_update="false" label="Forms" sequence="306" value="forms"/>
+                <element dependent_value="transactional" inactive_on_update="false" label="Other" sequence="307" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="u_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Administrative" sequence="100" value="administrative"/>
+                <element inactive_on_update="false" label="Litigation" sequence="200" value="litigation"/>
+                <element inactive_on_update="false" label="Transactional" sequence="300" value="transactional"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="manual_entry" label="Channel" mandatory="true" max_length="40" name="u_channel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Manual Entry" sequence="0" value="manual_entry"/>
+                <element inactive_on_update="false" label="Email" sequence="1" value="email"/>
+                <element inactive_on_update="false" label="Service Portal" sequence="2" value="service_portal"/>
+                <element inactive_on_update="false" label="Walk Up" sequence="3" value="walk_up"/>
+                <element inactive_on_update="false" label="Phone" sequence="4" value="Phone"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Resource" mandatory="true" max_length="40" name="u_dept_referra" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bdev" sequence="1" value="bdev"/>
+                <element inactive_on_update="false" label="Conflicts" sequence="2" value="conflicts"/>
+                <element inactive_on_update="false" label="Corp Social Responsibility" sequence="3" value="corp_social_responsibility"/>
+                <element inactive_on_update="false" label="Court &amp; Calendar Resources" sequence="4" value="court_and_calendar_resources"/>
+                <element inactive_on_update="false" label="CSC" sequence="5" value="csc"/>
+                <element inactive_on_update="false" label="DPS" sequence="6" value="dps"/>
+                <element inactive_on_update="false" label="DSAI" sequence="7" value="dsai"/>
+                <element inactive_on_update="false" label="Finance" sequence="8" value="finance"/>
+                <element inactive_on_update="false" label="IT" sequence="9" value="it"/>
+                <element inactive_on_update="false" label="Paralegal/OTK" sequence="10" value="paralegal_otk"/>
+                <element inactive_on_update="false" label="Practice Innovation" sequence="11" value="practice_innovation"/>
+                <element inactive_on_update="false" label="Self" sequence="12" value="self"/>
+                <element inactive_on_update="false" label="Talent Management" sequence="13" value="talent_management"/>
+                <element inactive_on_update="false" label="Williams Lea" sequence="14" value="williams_lea"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Job Requestor" mandatory="true" max_length="32" name="u_job_requestor" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Reported By" max_length="32" name="u_reported_by" reference="sys_user" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module">
+    <sys_aw_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <content display_value="Lists Module Content">876636a61b3820105bf88777dc4bcb0c</content>
+        <content_attrs/>
+        <content_component display_value="sn-workspace-list-module">430c13c072108799d48a4d0306fd9f80</content_component>
+        <content_tag/>
+        <detail/>
+        <detail_attrs/>
+        <detail_component/>
+        <detail_tag/>
+        <hide_until_ready>false</hide_until_ready>
+        <icon>list-outline</icon>
+        <id>list</id>
+        <label>Lists</label>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_module</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-03 17:49:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb6636a61b3820105bf88777dc4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_props/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_aw_module_cb6636a61b3820105bf88777dc4bcb02</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:49:41</sys_updated_on>
+        <toolbar_button display_value="Lists Button">cf6636a61b3820105bf88777dc4bcb02</toolbar_button>
+        <type>full</type>
+        <workspace_config display_value="Admin Support">2166b2a61b3820105bf88777dc4bcbb0</workspace_config>
+    </sys_aw_module>
+    <sys_variable_value action="delete_multiple" query="document_key=cb6636a61b3820105bf88777dc4bcb02"/>
+</record_update>

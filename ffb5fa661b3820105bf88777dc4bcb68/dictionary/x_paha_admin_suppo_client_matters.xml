@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Client Matters" max_length="40" name="x_paha_admin_suppo_client_matters" sizeclass="3" type="collection">
+        <element display="true" label="Client Matter Name" max_length="100" name="client_matter_name" type="string"/>
+        <element label="Client Matter Number" max_length="20" name="client_matter_number" type="string"/>
+    </element>
+</database>

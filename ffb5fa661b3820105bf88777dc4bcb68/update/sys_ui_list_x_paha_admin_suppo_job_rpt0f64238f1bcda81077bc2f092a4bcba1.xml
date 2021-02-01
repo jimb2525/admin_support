@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_paha_admin_suppo_job" version="2" view="RPT0f64238f1bcda81077bc2f092a4bcba1">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_paha_admin_suppo_job" element="NULL" name="x_paha_admin_suppo_job" parent="NULL" relationship="NULL" sys_domain="global" view="cf64238f1bcda81077bc2f092a4bcba6">2ab1dd8a1b3da41077bc2f092a4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-20 14:15:34</sys_created_on>
+            <sys_id>62b1dd8a1b3da41077bc2f092a4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-20 14:15:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_paha_admin_suppo_job" element="NULL" name="x_paha_admin_suppo_job" parent="NULL" relationship="NULL" sys_domain="global" view="cf64238f1bcda81077bc2f092a4bcba6">2ab1dd8a1b3da41077bc2f092a4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-20 14:15:34</sys_created_on>
+            <sys_id>aab1dd8a1b3da41077bc2f092a4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-20 14:15:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_paha_admin_suppo_job" element="NULL" name="x_paha_admin_suppo_job" parent="NULL" relationship="NULL" sys_domain="global" view="cf64238f1bcda81077bc2f092a4bcba6">2ab1dd8a1b3da41077bc2f092a4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-20 14:15:34</sys_created_on>
+            <sys_id>aeb1dd8a1b3da41077bc2f092a4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-20 14:15:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="x_paha_admin_suppo_job" element="NULL" name="x_paha_admin_suppo_job" parent="NULL" relationship="NULL" sys_domain="global" view="cf64238f1bcda81077bc2f092a4bcba6">2ab1dd8a1b3da41077bc2f092a4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-20 14:15:34</sys_created_on>
+            <sys_id>a2b1dd8a1b3da41077bc2f092a4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-20 14:15:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_paha_admin_suppo_job" element="NULL" name="x_paha_admin_suppo_job" parent="NULL" relationship="NULL" sys_domain="global" view="cf64238f1bcda81077bc2f092a4bcba6">2ab1dd8a1b3da41077bc2f092a4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-20 14:15:34</sys_created_on>
+            <sys_id>a6b1dd8a1b3da41077bc2f092a4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-20 14:15:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_paha_admin_suppo_job" element="NULL" name="x_paha_admin_suppo_job" parent="NULL" relationship="NULL" sys_domain="global" view="cf64238f1bcda81077bc2f092a4bcba6">2ab1dd8a1b3da41077bc2f092a4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-20 14:15:34</sys_created_on>
+            <sys_id>aab1dd8a1b3da41077bc2f092a4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-20 14:15:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>declined_work</element>
+            <list_id display_value="x_paha_admin_suppo_job" element="NULL" name="x_paha_admin_suppo_job" parent="NULL" relationship="NULL" sys_domain="global" view="cf64238f1bcda81077bc2f092a4bcba6">2ab1dd8a1b3da41077bc2f092a4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-20 14:15:34</sys_created_on>
+            <sys_id>aeb1dd8a1b3da41077bc2f092a4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-20 14:15:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_paha_admin_suppo_job</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-20 14:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ab1dd8a1b3da41077bc2f092a4bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_paha_admin_suppo_job</sys_name>
+            <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+            <sys_update_name>sys_ui_list_x_paha_admin_suppo_job_RPT0f64238f1bcda81077bc2f092a4bcba1</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-20 14:15:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt0f64238f1bcda81077bc2f092a4bcba1" name="RPT0f64238f1bcda81077bc2f092a4bcba1">cf64238f1bcda81077bc2f092a4bcba6</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

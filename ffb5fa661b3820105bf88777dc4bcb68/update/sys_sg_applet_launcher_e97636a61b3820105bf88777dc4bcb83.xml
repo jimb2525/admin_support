@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Admin Support</name>
+        <required_roles>x_paha_admin_suppo.user,x_paha_admin_suppo.manager,x_paha_admin_suppo.admin</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-03 17:49:52</sys_created_on>
+        <sys_id>e97636a61b3820105bf88777dc4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Support</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_e97636a61b3820105bf88777dc4bcb83</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:49:52</sys_updated_on>
+        <title>Admin Support</title>
+    </sys_sg_applet_launcher>
+</record_update>

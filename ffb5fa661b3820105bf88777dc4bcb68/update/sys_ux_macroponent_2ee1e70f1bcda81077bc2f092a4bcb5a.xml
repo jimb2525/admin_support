@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckitaviwlaaaaaaccddghhaylgjfcnf",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ckitaviwm00033g7af8tjm10h",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"column","id":"ckitavlas00093g7aaa66bg0t","size":"12","rows":[{"type":"row","id":"ckitavlas000a3g7a396d7vp9","slotName":"ckitavlar00083g7aeyr0shzk"},{"type":"row","id":"ckitavwmv000j3g7ac9l6mz8i","columns":[{"type":"column","id":"ckitavpfr000e3g7aymq5oftv","slotName":"ckitavpfr000d3g7a3qvf0aje","size":"4"},{"type":"column","id":"ckitavwmv000i3g7auuagdqwy","slotName":"ckitavwmv000h3g7al9lrubt7","size":"4"},{"type":"column","slotName":"ckitaw0sr000m3g7a0ejlnhq9","id":"ckitaw0sz000n3g7a4gqbaltp","size":"4"}]}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckitavlaraaaaaahhddghhaptrcfcub",
+      "elementLabel" : "Rich Text",
+      "propertyValues" : {
+        "html" : "&lt;p&gt;&lt;span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"&gt;My Work&lt;/span&gt;&lt;/p&gt;"
+      },
+      "slot" : "ckitavlar00083g7aeyr0shzk",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckitavpfraaaaaacddghhaffccvhhtynd",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "My Open Jobs",
+        "reportSysId" : "ca5027cb1bcda81077bc2f092a4bcb1a",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : true,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckitavpfr000d3g7a3qvf0aje",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckitavwmvaaaaaagddghhakriiiautb",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "My Pending Jobs",
+        "reportSysId" : "0260a7cb1bcda81077bc2f092a4bcb85",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : true,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckitavwmv000h3g7al9lrubt7",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckitawaasraaaaaalddghhauhhbfgtffaa",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "My WIP Jobs",
+        "reportSysId" : "b470e7cb1bcda81077bc2f092a4bcb87",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : true,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckitaw0sr000m3g7a0ejlnhq9",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckitbeekccuaaaaaapddghhabiiecaabbmy",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ckitb4k2u000q3g7abzfq4n7s",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ckitb4rgk000u3g7a2vtadv6w","size":"12","rows":[],"id":"ckitb4rgl000w3g7a6xhep2hd"}],"id":"ckitb4rgk000v3g7aquq3qwy1"},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckitbeergkaaaaaatddghhaaffjjpvulee",
+      "elementLabel" : "Rich Text",
+      "propertyValues" : {
+        "html" : "&lt;p&gt;&lt;span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"&gt;My Teams Work&lt;/span&gt;&lt;/p&gt;"
+      },
+      "slot" : "ckitb4rgk000u3g7a2vtadv6w",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckitbeevfaaaaaaaayddghhaeibbaaffpl",
+  "elementLabel" : "Report/PA Widget",
+  "propertyValues" : {
+    "label" : "My Teams Open Jobs",
+    "reportSysId" : "60e06bcb1bcda81077bc2f092a4bcb03",
+    "paWidgetSysId" : "",
+    "variant" : "auto",
+    "border" : true,
+    "refreshInterval" : "",
+    "isRealtime" : true,
+    "refreshFrequency" : "0",
+    "kpiDetailsNavigation" : false
+  },
+  "slot" : "ckitb4vf0000z3g7aqcem36jx",
+  "definition" : {
+    "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckitbeezhhiaaaabbccddghhacmmxiisej",
+  "elementLabel" : "Report/PA Widget",
+  "propertyValues" : {
+    "label" : "My Teams Pending Jobs",
+    "reportSysId" : "7dd06bcb1bcda81077bc2f092a4bcb55",
+    "paWidgetSysId" : "",
+    "variant" : "auto",
+    "border" : true,
+    "refreshInterval" : "",
+    "isRealtime" : true,
+    "refreshFrequency" : "0",
+    "kpiDetailsNavigation" : false
+  },
+  "slot" : "ckitb4z7i00133g7ad7ae92wq",
+  "definition" : {
+    "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckitbffccmbbaaaabbhhddghhaylrcjjbbbr",
+  "elementLabel" : "Report/PA Widget",
+  "propertyValues" : {
+    "label" : "My Teams WIP Jobs",
+    "reportSysId" : "6ee0ebcb1bcda81077bc2f092a4bcb2e",
+    "paWidgetSysId" : "",
+    "variant" : "auto",
+    "border" : true,
+    "refreshInterval" : "",
+    "isRealtime" : true,
+    "refreshFrequency" : "0",
+    "kpiDetailsNavigation" : false
+  },
+  "slot" : "ckitb52m100183g7axtsevhbg",
+  "definition" : {
+    "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckitbbddlxaaaabbhddghhaqbbvotzgd",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ckitbb3lx001i3g7a9824n0vd",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"column","id":"ckitbb7q4001n3g7ajxlh3a9h","rows":[{"type":"row","id":"ckitbb7q4001o3g7a6ydx9zk1","slotName":"ckitbb7q4001m3g7a5jnci8fk"},{"id":"ckj8xh4sw001b3g7acwpa927s","slotName":"ckj8xh4so001a3g7a7xcykaof","type":"row"}],"size":"12"},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckitbbhhqeeaaaabblddghhaiimaaerffjju",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "My Teams Unassigned Jobs",
+        "reportSysId" : "0f64238f1bcda81077bc2f092a4bcba1",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : true,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckitbb7q4001m3g7a5jnci8fk",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckjiixheesnaaaabbjjddghhaiffaacbeiii",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "My Office's Declined Jobs",
+        "reportSysId" : "de86332e1b55a41077bc2f092a4bcb62",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckj8xh4so001a3g7a7xcykaof",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjiixjjaiixaaaaaaaddghhaggusaabbkddr",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ckj8x9a8y000b3g7a3j12nwtz",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","id":"ckj8x9f18000g3g7agh9457ds","columns":[{"type":"column","id":"ckj8x9f18000h3g7a65s1gahh","slotName":"ckj8x9f18000f3g7ab33eb0by","size":"4"},{"type":"column","id":"ckj8xayc1000s3g7a2ny3uw6a","slotName":"ckj8x9lnz000p3g7a5xcueo8p","size":"4"},{"type":"column","slotName":"ckj8xbijw000v3g7aezerg0gt","id":"ckj8xbm1s000z3g7aozy5pqcz","size":"4"}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckjiixjjfbbhhaaaaaaeddghhagggdkktbbhh",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "My Office's Open Jobs",
+        "reportSysId" : "fdd4ffaa1b55a41077bc2f092a4bcb65",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : true,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckj8x9f18000f3g7ab33eb0by",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckjiixjjlnzaaaaaaoddghhabffqggmeemk",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "My Office's Pending Jobs",
+        "reportSysId" : "fc0533ea1b55a41077bc2f092a4bcbdc",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : true,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckj8x9lnz000p3g7a5xcueo8p",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckjiixbijwaaaaaauddghhaddbbxaawfsu",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "My Office's WIP Jobs",
+        "reportSysId" : "a725b3ea1b55a41077bc2f092a4bcb9c",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : true,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckj8xbijw000v3g7aezerg0gt",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckjiixjjimggaaaaaajddghhatsvgdziin",
+  "elementLabel" : "Report/PA Widget",
+  "propertyValues" : {
+    "label" : "",
+    "reportSysId" : "fc0533ea1b55a41077bc2f092a4bcbdc",
+    "paWidgetSysId" : "",
+    "variant" : "auto",
+    "border" : false,
+    "refreshInterval" : "",
+    "isRealtime" : false,
+    "refreshFrequency" : "0",
+    "kpiDetailsNavigation" : false
+  },
+  "slot" : "ckj8x9im6000k3g7a3kf59197",
+  "definition" : {
+    "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckjiixcudwaaaabbbbddghhajjiifgvpeef",
+  "elementLabel" : "Rich Text",
+  "propertyValues" : {
+    "html" : "&lt;p&gt;&lt;span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"&gt;My Office's Work&lt;/span&gt;&lt;/p&gt;"
+  },
+  "slot" : "ckj8xcudw00123g7a2t5oz1pb",
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckjiixerkoaaaabbffddghhaxeeggixeuii",
+  "elementLabel" : "Rich Text",
+  "propertyValues" : {
+    "html" : "&lt;p&gt;&lt;span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"&gt;Unassigned and Declined Work&lt;/span&gt;&lt;/p&gt;"
+  },
+  "slot" : "ckj8xerko00163g7agmeepuuk",
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"column","id":"ckitaviwm00043g7aoz4sp3jp","size":"12","rows":[{"type":"row","id":"ckitaviwm00053g7austaftmo","slotName":"ckitaviwm00033g7af8tjm10h"},{"type":"row","id":"ckitb4k2v000r3g7a7lwgeicl","slotName":"ckitb4k2u000q3g7abzfq4n7s"},{"type":"row","id":"ckitb4z7j00153g7axqb7p1ai","columns":[{"type":"column","id":"ckitb4vf100103g7ax6zp8fdo","slotName":"ckitb4vf0000z3g7aqcem36jx","size":"4"},{"type":"column","id":"ckitb4z7j00143g7agu48sggu","slotName":"ckitb4z7i00133g7ad7ae92wq","size":"4"},{"type":"column","id":"ckitb52m100193g7a09meqfp3","slotName":"ckitb52m100183g7axtsevhbg","size":"4"}]},{"type":"row","id":"ckj8xcudw00133g7al3sh8vk9","slotName":"ckj8xcudw00123g7a2t5oz1pb"},{"type":"row","id":"ckj8x9a8y000c3g7a414f9nec","slotName":"ckj8x9a8y000b3g7a3j12nwtz"},{"type":"row","slotName":"ckj8xerko00163g7agmeepuuk","id":"ckj8xerkp00173g7ap4iqjgd2"},{"type":"row","id":"ckitbb3m5001j3g7a6ut44sdv","slotName":"ckitbb3lx001i3g7a9824n0vd"}]},
+    "items" : null,
+    "rules" : null,
+    "styles" : null
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Admin Support Dashboard</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-17 20:32:21</sys_created_on>
+        <sys_id>2ee1e70f1bcda81077bc2f092a4bcb5a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Admin Support Dashboard</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_ux_macroponent_2ee1e70f1bcda81077bc2f092a4bcb5a</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-01-20 14:15:15</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

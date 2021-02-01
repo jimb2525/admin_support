@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_paha_admin_suppo_job</collection>
+        <condition table="x_paha_admin_suppo_job">state=-5^EQ<item display_value="Pending" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html><![CDATA[<p>Number: ${number}Number: ${number}<br /><br /></p>
+<p><br /></p>]]></digest_html>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>alm_transfer_order_line_subtask.escalati</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi ${u_job_requestor},<br /></p>
+<p>&nbsp; &nbsp; &nbsp;Your Job Request has been created.</p>
+<p><br /></p>
+<p>Thank you.</p>
+<p><br /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Send Notification to Job Requestor</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_job_requestor</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Job ${number} has been created</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-21 18:50:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b50bb141b15601077bc2f092a4bcb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Send Notification to Job Requestor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sysevent_email_action_2b50bb141b15601077bc2f092a4bcb87</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-21 18:51:33</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</application>
+        <file_path/>
+        <instance_id>fc65da9adbb0e8105749cac50596193a</instance_id>
+        <instance_name>paulhastingsappbuildpov</instance_name>
+        <name>sysevent_email_action_2b50bb141b15601077bc2f092a4bcb87</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_paha_admin_suppo_job&lt;/collection&gt;&lt;condition table="x_paha_admin_suppo_job"&gt;state=-5^EQ&lt;item display_value="Pending" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-5"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html&gt;&lt;![CDATA[&lt;p&gt;Number: ${number}Number: ${number}&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;]]&gt;&lt;/digest_html&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;alm_transfer_order_line_subtask.escalati&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hi ${u_job_requestor},&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Your Job Request has been created.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Send Notification to Job Requestor&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_job_requestor&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Job ${number} has been created&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;james.belote&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-21 18:50:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2b50bb141b15601077bc2f092a4bcb87&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Send Notification to Job Requestor&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Admin Support" source="x_paha_admin_suppo"&gt;ffb5fa661b3820105bf88777dc4bcb68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Admin Support"&gt;ffb5fa661b3820105bf88777dc4bcb68&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_2b50bb141b15601077bc2f092a4bcb87&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;james.belote&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-21 18:51:33&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>989545631</payload_hash>
+        <record_name>Send Notification to Job Requestor</record_name>
+        <reverted_from/>
+        <source>73b5fa661b3820105bf88777dc4bcb6b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-21 18:51:33</sys_created_on>
+        <sys_id>3c3173541b15601077bc2f092a4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17686a473ab0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-21 18:51:33</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>b43173540b156010ef91725f66a97ac8</update_guid>
+        <update_guid_history>b43173540b156010ef91725f66a97ac8:989545631,59f03f14ca156010f5bb43e3d1a8f857:-848546463</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2020-12-23 18:44:23</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>327cd8b5f7fb49719309e77c98a49b99</sys_id>
+        <sys_metadata>2b50bb141b15601077bc2f092a4bcb87</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Notification to Job Requestor</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_parent display_value="Job">cc26fe661b3820105bf88777dc4bcbcb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_scope_delete display_value="">01b9274a4744461895fbc8eae6a96d10</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_2b50bb141b15601077bc2f092a4bcb87</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_2b50bb141b15601077bc2f092a4bcb87">3c3173541b15601077bc2f092a4bcbc8</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2020-12-23 18:44:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

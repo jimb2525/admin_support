@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context display_value="PH Encryption">0207ce8d1bd56c105bf88777dc4bcb26</encryption_context>
+        <encryption_context display_value="">0207ce8d1bd56c105bf88777dc4bcb26</encryption_context>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_paha_admin_suppo.manager</name>

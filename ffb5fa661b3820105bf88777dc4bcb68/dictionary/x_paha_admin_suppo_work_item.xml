@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Work Item" max_length="40" name="x_paha_admin_suppo_work_item" sizeclass="20" type="collection">
+        <element label="Metric" max_length="40" name="capacity" type="integer"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element choice="1" label="Work Item Type" max_length="40" name="work_item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Production" sequence="100" value="Production"/>
+                <element inactive_on_update="false" label="Capacity" sequence="200" value="Capacity"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

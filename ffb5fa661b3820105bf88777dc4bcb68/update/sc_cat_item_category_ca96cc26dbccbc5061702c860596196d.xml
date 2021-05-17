@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Expense Managaement">60964c26dbccbc5061702c86059619a4</sc_cat_item>
+        <sc_category display_value="Finances">e6a40c22dbccbc5061702c86059619dd</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-05-13 18:25:32</sys_created_on>
+        <sys_id>ca96cc26dbccbc5061702c860596196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finances.Copy of Check Request</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sc_cat_item_category_ca96cc26dbccbc5061702c860596196d</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-05-13 18:25:32</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

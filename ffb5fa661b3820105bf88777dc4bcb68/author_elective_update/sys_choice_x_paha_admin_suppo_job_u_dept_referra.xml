@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-16 22:08:25</sys_created_on>
-            <sys_id>374e26361b45a81077bc2f092a4bcbd2</sys_id>
+            <sys_id>c28ad8b9db8e241061702c8605961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_dept_referra</sys_name>
             <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
@@ -25,6 +25,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-16 22:08:25</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -44,6 +45,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-16 22:08:25</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -63,6 +65,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:39:27</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -82,6 +85,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>4</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:40:48</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -101,6 +105,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>5</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:40:03</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -120,6 +125,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>6</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-16 22:08:25</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -139,6 +145,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>7</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:41:23</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -158,6 +165,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>8</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:41:45</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -177,6 +185,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>9</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:41:59</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -196,6 +205,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>10</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:42:50</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -215,6 +225,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>11</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:43:09</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -234,6 +245,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>12</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:43:21</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -253,6 +265,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>13</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:43:47</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -272,6 +285,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>14</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-21 01:44:05</sys_created_on>
             <sys_domain>global</sys_domain>

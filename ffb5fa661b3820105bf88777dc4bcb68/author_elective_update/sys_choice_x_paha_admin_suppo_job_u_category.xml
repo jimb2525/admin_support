@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-04 15:33:17</sys_created_on>
-            <sys_id>fec0a7be1b7060105bf88777dc4bcb16</sys_id>
+            <sys_id>c28a98b9db8e241061702c86059619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_category</sys_name>
             <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
@@ -25,6 +25,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>100</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-10 02:23:17</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -44,6 +45,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>200</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-10 02:22:31</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -63,6 +65,7 @@
             <language>en</language>
             <name>x_paha_admin_suppo_job</name>
             <sequence>300</sequence>
+            <synonyms/>
             <sys_created_by>james.belote</sys_created_by>
             <sys_created_on>2020-12-10 02:21:38</sys_created_on>
             <sys_domain>global</sys_domain>

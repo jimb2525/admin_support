@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_paha_admin_suppo_special_handling_notes</description>
+        <name>x_paha_admin_suppo_special_handling_notes</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-04-07 18:43:14</sys_created_on>
+        <sys_id>526132badb53641061702c86059619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_paha_admin_suppo_special_handling_notes</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_security_acl_526132badb53641061702c86059619ed</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-04-07 18:43:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</application>
+        <file_path/>
+        <instance_id>e2c19596db7ad4d45749cac505961996</instance_id>
+        <instance_name>jbelote10demo</instance_name>
+        <name>sys_security_acl_526132badb53641061702c86059619ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_paha_admin_suppo_special_handling_notes</description><name>x_paha_admin_suppo_special_handling_notes</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>dan.munk</sys_created_by><sys_created_on>2021-04-07 18:43:14</sys_created_on><sys_id>526132badb53641061702c86059619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_paha_admin_suppo_special_handling_notes</sys_name><sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package><sys_policy/><sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope><sys_update_name>sys_security_acl_526132badb53641061702c86059619ed</sys_update_name><sys_updated_by>dan.munk</sys_updated_by><sys_updated_on>2021-04-07 18:43:14</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>346405940</payload_hash>
+        <record_name>x_paha_admin_suppo_special_handling_notes</record_name>
+        <reverted_from/>
+        <source>42d465d1db9b681061702c860596194f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-04-07 18:43:14</sys_created_on>
+        <sys_id>126132badb53641061702c86059619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178ada54a500000001</sys_recorded_at>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-04-07 18:43:14</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>526132bac0536410582fd40405e8b7f1</update_guid>
+        <update_guid_history>526132bac0536410582fd40405e8b7f1:346405940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-04-07 20:01:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3cef8e29fe484ba8b487cf93c97677d9</sys_id>
+        <sys_metadata>526132badb53641061702c86059619ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_paha_admin_suppo_special_handling_notes</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_parent display_value="">566172badb53641061702c8605961903</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_scope_delete display_value="">01b9274a4744461895fbc8eae6a96d10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_526132badb53641061702c86059619ed</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_526132badb53641061702c86059619ed">126132badb53641061702c86059619fe</sys_update_version>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-04-07 20:01:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

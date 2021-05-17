@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>client_matter_name</element>
-            <list_id display_value="x_paha_admin_suppo_client_matters" element="NULL" name="x_paha_admin_suppo_client_matters" parent="NULL" relationship="NULL" sys_domain="global" view="676852521b30201077bc2f092a4bcb30">e32b04d01b1d201077bc2f092a4bcb62</list_id>
+            <list_id display_value="x_paha_admin_suppo_client_matters" element="NULL" name="x_paha_admin_suppo_client_matters" parent="NULL" relationship="NULL" sys_domain="global" view="0dc31152db32101061702c86059619ed">e32b04d01b1d201077bc2f092a4bcb62</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>client_matter_number</element>
-            <list_id display_value="x_paha_admin_suppo_client_matters" element="NULL" name="x_paha_admin_suppo_client_matters" parent="NULL" relationship="NULL" sys_domain="global" view="676852521b30201077bc2f092a4bcb30">e32b04d01b1d201077bc2f092a4bcb62</list_id>
+            <list_id display_value="x_paha_admin_suppo_client_matters" element="NULL" name="x_paha_admin_suppo_client_matters" parent="NULL" relationship="NULL" sys_domain="global" view="0dc31152db32101061702c86059619ed">e32b04d01b1d201077bc2f092a4bcb62</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -55,7 +55,7 @@
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2020-12-21 02:06:35</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">676852521b30201077bc2f092a4bcb30</view>
+            <view display_value="Reference List" name="sys_ref_list">0dc31152db32101061702c86059619ed</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

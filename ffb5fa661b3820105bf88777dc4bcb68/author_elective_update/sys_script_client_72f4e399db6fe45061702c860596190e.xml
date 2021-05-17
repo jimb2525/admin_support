@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Test OnChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	https://jbelote10demo.service-now.com
+
+var kbId = '24d9243187032100deddb882a2e3ec33';
+    
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-04-15 16:54:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72f4e399db6fe45061702c860596190e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Test OnChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_script_client_72f4e399db6fe45061702c860596190e</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-04-15 17:44:58</sys_updated_on>
+        <table>x_paha_admin_suppo_job</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</application>
+        <file_path/>
+        <instance_id>e2c19596db7ad4d45749cac505961996</instance_id>
+        <instance_name>jbelote10demo</instance_name>
+        <name>sys_script_client_72f4e399db6fe45061702c860596190e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Test OnChange&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	https://jbelote10demo.service-now.com
+
+var kbId = '24d9243187032100deddb882a2e3ec33';
+    
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.munk&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-15 16:54:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;72f4e399db6fe45061702c860596190e&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Test OnChange&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Admin Support" source="x_paha_admin_suppo"&gt;ffb5fa661b3820105bf88777dc4bcb68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Admin Support"&gt;ffb5fa661b3820105bf88777dc4bcb68&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_72f4e399db6fe45061702c860596190e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.munk&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-15 17:44:58&lt;/sys_updated_on&gt;&lt;table&gt;x_paha_admin_suppo_job&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>810897060</payload_hash>
+        <record_name>Test OnChange</record_name>
+        <reverted_from/>
+        <source>42d465d1db9b681061702c860596194f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-04-15 17:44:58</sys_created_on>
+        <sys_id>fec0ff1ddb63285061702c86059619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178d6a2d32e0000001</sys_recorded_at>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-04-15 17:44:58</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>36c0ff1d2f632850dc9d5bd6d21f41a0</update_guid>
+        <update_guid_history>36c0ff1d2f632850dc9d5bd6d21f41a0:810897060,4780f71d3f6328500fcde8bc6975f08f:-1034900412,5400b7d92663285075207e23ae8f2abe:-1176750432,181eabd560232850ac39e85e84dba74d:647879017,de6563d90c6fe45040721ec209e4e752:-1564788664,ac456b999c6fe4504aac73fd566811c1:-1715965013</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-04-15 18:05:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>884aa2847320452c92c7caeea7913710</sys_id>
+        <sys_metadata>72f4e399db6fe45061702c860596190e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test OnChange</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_parent display_value="Job">ff7a94b9db8e241061702c8605961995</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_scope_delete display_value="">01b9274a4744461895fbc8eae6a96d10</sys_scope_delete>
+        <sys_update_name>sys_script_client_72f4e399db6fe45061702c860596190e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_72f4e399db6fe45061702c860596190e">fec0ff1ddb63285061702c86059619a0</sys_update_version>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-04-15 18:05:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

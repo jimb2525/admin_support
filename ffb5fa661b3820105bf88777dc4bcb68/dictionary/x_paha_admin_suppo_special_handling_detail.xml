@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Special Handling Detail" max_length="40" name="x_paha_admin_suppo_special_handling_detail" sizeclass="8" type="collection">
+        <element label="Message" max_length="1000" name="message" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_paha_admin_suppo_job" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

@@ -28,7 +28,7 @@
         <sys_updated_on>2020-12-11 17:42:59</sys_updated_on>
         <table>x_paha_admin_suppo_job_tasks</table>
         <tabs_order>[{"label":"Details","value":"Details"}]</tabs_order>
-        <view display_value="Workspace" name="workspace">f060aa161b34201077bc2f092a4bcb0c</view>
+        <view display_value="Workspace" name="workspace">28b85516db36101061702c86059619c6</view>
         <workspace display_value="Admin Support">2166b2a61b3820105bf88777dc4bcbb0</workspace>
     </sysrule_view_workspace>
 </record_update>

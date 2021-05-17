@@ -31,7 +31,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="James Belote">d0e4f2661b3820105bf88777dc4bcb52</created_by_user>
+        <created_by_user display_value="James Belote">670654241b8ce010ad031f4d2b4bcb98</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -49,7 +49,6 @@
         <filter table="x_paha_admin_suppo_job">active=true^state=2^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^assignment_group.u_office=16ff753837d0200044e0bfc8bcbe5d5f<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item display_value="Work in Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="DYNAMIC" or="false" value="d6435e965f510100a9ad2572f2b47744"/>
-            <item display_table="cmn_location" display_value="New York" endquery="false" field="assignment_group.u_office" goto="false" newquery="false" operator="=" or="false" value="16ff753837d0200044e0bfc8bcbe5d5f"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -80,7 +79,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles/>
+        <roles>snc_internal</roles>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>

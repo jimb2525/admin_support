@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-04-07 20:09:34</sys_created_on>
+        <sys_id>fe25433a1bd3e810ad031f4d2b4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_paha_admin_suppo_special_handling_detail.x_paha_admin_suppo.special_handling_detail_user</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_security_acl display_value="x_paha_admin_suppo_special_handling_detail">7a25433a1bd3e810ad031f4d2b4bcbec</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fe25433a1bd3e810ad031f4d2b4bcbfd</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-04-07 20:09:34</sys_updated_on>
+        <sys_user_role display_value="x_paha_admin_suppo.special_handling_detail_user" name="x_paha_admin_suppo.special_handling_detail_user">aa25033a1bd3e810ad031f4d2b4bcba6</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

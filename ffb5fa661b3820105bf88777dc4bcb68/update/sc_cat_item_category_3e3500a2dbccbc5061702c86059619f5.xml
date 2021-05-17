@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Copy/Print/Scan">5ed4c062dbccbc5061702c8605961972</sc_cat_item>
+        <sc_category display_value="Document Services">cf944422dbccbc5061702c860596193e</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-05-13 18:19:35</sys_created_on>
+        <sys_id>3e3500a2dbccbc5061702c86059619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Services.Copy/Print/Scan</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sc_cat_item_category_3e3500a2dbccbc5061702c86059619f5</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-05-13 18:19:35</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

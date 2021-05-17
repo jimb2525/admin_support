@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>15</order>
+        <question display_value="Task">1c364026dbccbc5061702c8605961926</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-05-13 18:23:48</sys_created_on>
+        <sys_id>24364026dbccbc5061702c860596193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Courier Services</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>question_choice_24364026dbccbc5061702c860596193d</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-05-13 18:23:48</sys_updated_on>
+        <text>Courier Services</text>
+        <value>courier_services</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=24364026dbccbc5061702c860596193d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>24364026dbccbc5061702c860596193d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-05-13 18:23:48</sys_created_on>
+        <sys_id>64364026dbccbc5061702c860596193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-05-13 18:23:48</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>24364026dbccbc5061702c860596193d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-05-13 18:23:48</sys_created_on>
+        <sys_id>2c364026dbccbc5061702c860596193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-05-13 18:23:48</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

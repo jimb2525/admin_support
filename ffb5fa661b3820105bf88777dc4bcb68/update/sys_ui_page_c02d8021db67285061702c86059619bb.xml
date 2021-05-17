@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_paha_admin_suppo_Special Handling.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:evaluate object="true">
+       var gr = new GlideRecord('x_paha_admin_suppo_special_handling_detail');
+		
+       gr.addQuery('parent.sys_id', RP.getParameterValue("sysparm_id"));
+       gr.query();
+	</g:evaluate>
+	
+	<style>
+		.sp-message {
+			font-size: 1.5em;
+		}
+	</style>
+
+	<j:while test="${gr.next()}">
+		<p class="sp-message">${gr.getDisplayValue('message')}</p>
+  </j:while>
+</j:jelly>]]></html>
+        <name>Special Handling</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>dan.munk</sys_created_by>
+        <sys_created_on>2021-04-15 19:49:29</sys_created_on>
+        <sys_id>c02d8021db67285061702c86059619bb</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Special Handling</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_ui_page_c02d8021db67285061702c86059619bb</sys_update_name>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-04-15 20:49:17</sys_updated_on>
+    </sys_ui_page>
+</record_update>

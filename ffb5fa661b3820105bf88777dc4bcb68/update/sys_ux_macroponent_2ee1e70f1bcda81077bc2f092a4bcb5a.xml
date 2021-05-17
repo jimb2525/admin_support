@@ -20,15 +20,6 @@
     "type" : "MACROPONENT"
   },
   "overrides" : {
-    "layout" : {
-      "default" : {
-        "type" : "rowColumn",
-        "root" : {"type":"column","id":"ckitavlas00093g7aaa66bg0t","size":"12","rows":[{"type":"row","id":"ckitavlas000a3g7a396d7vp9","slotName":"ckitavlar00083g7aeyr0shzk"},{"type":"row","id":"ckitavwmv000j3g7ac9l6mz8i","columns":[{"type":"column","id":"ckitavpfr000e3g7aymq5oftv","slotName":"ckitavpfr000d3g7a3qvf0aje","size":"4"},{"type":"column","id":"ckitavwmv000i3g7auuagdqwy","slotName":"ckitavwmv000h3g7al9lrubt7","size":"4"},{"type":"column","slotName":"ckitaw0sr000m3g7a0ejlnhq9","id":"ckitaw0sz000n3g7a4gqbaltp","size":"4"}]}]},
-        "items" : null,
-        "rules" : null,
-        "styles" : null
-      }
-    },
     "composition" : [ {
       "elementId" : "ckitavlaraaaaaahhddghhaptrcfcub",
       "elementLabel" : "Rich Text",
@@ -101,7 +92,16 @@
         "type" : "MACROPONENT"
       },
       "overrides" : null
-    } ]
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"column","id":"ckitavlas00093g7aaa66bg0t","size":"12","rows":[{"type":"row","id":"ckitavlas000a3g7a396d7vp9","slotName":"ckitavlar00083g7aeyr0shzk"},{"type":"row","id":"ckitavwmv000j3g7ac9l6mz8i","columns":[{"type":"column","id":"ckitavpfr000e3g7aymq5oftv","slotName":"ckitavpfr000d3g7a3qvf0aje","size":"4"},{"type":"column","id":"ckitavwmv000i3g7auuagdqwy","slotName":"ckitavwmv000h3g7al9lrubt7","size":"4"},{"type":"column","slotName":"ckitaw0sr000m3g7a0ejlnhq9","id":"ckitaw0sz000n3g7a4gqbaltp","size":"4"}]}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
   }
 }, {
   "elementId" : "ckitbeekccuaaaaaapddghhabiiecaabbmy",
@@ -121,15 +121,6 @@
     "type" : "MACROPONENT"
   },
   "overrides" : {
-    "layout" : {
-      "default" : {
-        "type" : "rowColumn",
-        "root" : {"type":"row","columns":[{"type":"column","slotName":"ckitb4rgk000u3g7a2vtadv6w","size":"12","rows":[],"id":"ckitb4rgl000w3g7a6xhep2hd"}],"id":"ckitb4rgk000v3g7aquq3qwy1"},
-        "items" : null,
-        "rules" : null,
-        "styles" : null
-      }
-    },
     "composition" : [ {
       "elementId" : "ckitbeergkaaaaaatddghhaaffjjpvulee",
       "elementLabel" : "Rich Text",
@@ -142,7 +133,16 @@
         "type" : "MACROPONENT"
       },
       "overrides" : null
-    } ]
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ckitb4rgk000u3g7a2vtadv6w","size":"12","rows":[],"id":"ckitb4rgl000w3g7a6xhep2hd"}],"id":"ckitb4rgk000v3g7aquq3qwy1"},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
   }
 }, {
   "elementId" : "ckitbeevfaaaaaaaayddghhaeibbaaffpl",
@@ -222,15 +222,6 @@
     "type" : "MACROPONENT"
   },
   "overrides" : {
-    "layout" : {
-      "default" : {
-        "type" : "rowColumn",
-        "root" : {"type":"column","id":"ckitbb7q4001n3g7ajxlh3a9h","rows":[{"type":"row","id":"ckitbb7q4001o3g7a6ydx9zk1","slotName":"ckitbb7q4001m3g7a5jnci8fk"},{"id":"ckj8xh4sw001b3g7acwpa927s","slotName":"ckj8xh4so001a3g7a7xcykaof","type":"row"}],"size":"12"},
-        "items" : null,
-        "rules" : null,
-        "styles" : null
-      }
-    },
     "composition" : [ {
       "elementId" : "ckitbbhhqeeaaaabblddghhaiimaaerffjju",
       "elementLabel" : "Report/PA Widget",
@@ -271,7 +262,16 @@
         "type" : "MACROPONENT"
       },
       "overrides" : null
-    } ]
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"column","id":"ckitbb7q4001n3g7ajxlh3a9h","rows":[{"type":"row","id":"ckitbb7q4001o3g7a6ydx9zk1","slotName":"ckitbb7q4001m3g7a5jnci8fk"},{"id":"ckj8xh4sw001b3g7acwpa927s","slotName":"ckj8xh4so001a3g7a7xcykaof","type":"row"}],"size":"12"},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
   }
 }, {
   "elementId" : "ckjiixjjaiixaaaaaaaddghhaggusaabbkddr",
@@ -291,15 +291,6 @@
     "type" : "MACROPONENT"
   },
   "overrides" : {
-    "layout" : {
-      "default" : {
-        "type" : "rowColumn",
-        "root" : {"type":"row","id":"ckj8x9f18000g3g7agh9457ds","columns":[{"type":"column","id":"ckj8x9f18000h3g7a65s1gahh","slotName":"ckj8x9f18000f3g7ab33eb0by","size":"4"},{"type":"column","id":"ckj8xayc1000s3g7a2ny3uw6a","slotName":"ckj8x9lnz000p3g7a5xcueo8p","size":"4"},{"type":"column","slotName":"ckj8xbijw000v3g7aezerg0gt","id":"ckj8xbm1s000z3g7aozy5pqcz","size":"4"}]},
-        "items" : null,
-        "rules" : null,
-        "styles" : null
-      }
-    },
     "composition" : [ {
       "elementId" : "ckjiixjjfbbhhaaaaaaeddghhagggdkktbbhh",
       "elementLabel" : "Report/PA Widget",
@@ -360,7 +351,16 @@
         "type" : "MACROPONENT"
       },
       "overrides" : null
-    } ]
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","id":"ckj8x9f18000g3g7agh9457ds","columns":[{"type":"column","id":"ckj8x9f18000h3g7a65s1gahh","slotName":"ckj8x9f18000f3g7ab33eb0by","size":"4"},{"type":"column","id":"ckj8xayc1000s3g7a2ny3uw6a","slotName":"ckj8x9lnz000p3g7a5xcueo8p","size":"4"},{"type":"column","slotName":"ckj8xbijw000v3g7aezerg0gt","id":"ckj8xbm1s000z3g7aozy5pqcz","size":"4"}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
   }
 }, {
   "elementId" : "ckjiixjjimggaaaaaajddghhatsvgdziin",
@@ -406,6 +406,90 @@
     "type" : "MACROPONENT"
   },
   "overrides" : null
+}, {
+  "elementId" : "ckonaamfbbeeaaaaaahddbhhcivhkxtddj",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : true,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ckon0mf17000i3b7ceq8ea67j",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "ckonaamrdeaaaaaalddbhhcdjjatqujaa",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "",
+        "reportSysId" : "",
+        "paWidgetSysId" : "b2bf78041b4c3c10360bc88c0a4bcbe8",
+        "variant" : "auto",
+        "border" : false,
+        "refreshInterval" : "",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckon0mrde000m3b7c8xks1b1t",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckoneejwggaaaaaaaaiddbhhcdlwlmqddm",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "",
+        "reportSysId" : "004b2b56db0cbc5061702c86059619fc",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : false,
+        "refreshInterval" : "",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckon4jw60000j3b7cpjir387q",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"column","id":"ckon0mrdf000n3b7c0id8zo2m","rows":[{"type":"row","id":"ckon0mrdf000o3b7cgll9v7b7","slotName":"ckon0mrde000m3b7c8xks1b1t"},{"id":"ckon4jw60000k3b7c8cum9uuo","slotName":"ckon4jw60000j3b7cpjir387q","type":"row"}],"size":"12"},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
+  }
+}, {
+  "elementId" : "ckonjjeggjjhhaaaaaajddbhhcroaarjaaii",
+  "elementLabel" : "Heading",
+  "propertyValues" : {
+    "label" : "Avg Completion Time",
+    "variant" : "header-primary",
+    "wontWrap" : false,
+    "hasNoMargin" : false
+  },
+  "slot" : "ckon9e698000k3b7cai14wvgi",
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
 } ]</composition>
         <data/>
         <events/>
@@ -414,7 +498,7 @@
         <layout>{
   "default" : {
     "type" : "rowColumn",
-    "root" : {"type":"column","id":"ckitaviwm00043g7aoz4sp3jp","size":"12","rows":[{"type":"row","id":"ckitaviwm00053g7austaftmo","slotName":"ckitaviwm00033g7af8tjm10h"},{"type":"row","id":"ckitb4k2v000r3g7a7lwgeicl","slotName":"ckitb4k2u000q3g7abzfq4n7s"},{"type":"row","id":"ckitb4z7j00153g7axqb7p1ai","columns":[{"type":"column","id":"ckitb4vf100103g7ax6zp8fdo","slotName":"ckitb4vf0000z3g7aqcem36jx","size":"4"},{"type":"column","id":"ckitb4z7j00143g7agu48sggu","slotName":"ckitb4z7i00133g7ad7ae92wq","size":"4"},{"type":"column","id":"ckitb52m100193g7a09meqfp3","slotName":"ckitb52m100183g7axtsevhbg","size":"4"}]},{"type":"row","id":"ckj8xcudw00133g7al3sh8vk9","slotName":"ckj8xcudw00123g7a2t5oz1pb"},{"type":"row","id":"ckj8x9a8y000c3g7a414f9nec","slotName":"ckj8x9a8y000b3g7a3j12nwtz"},{"type":"row","slotName":"ckj8xerko00163g7agmeepuuk","id":"ckj8xerkp00173g7ap4iqjgd2"},{"type":"row","id":"ckitbb3m5001j3g7a6ut44sdv","slotName":"ckitbb3lx001i3g7a9824n0vd"}]},
+    "root" : {"type":"column","id":"ckitaviwm00043g7aoz4sp3jp","size":"12","rows":[{"type":"row","id":"ckitaviwm00053g7austaftmo","slotName":"ckitaviwm00033g7af8tjm10h"},{"type":"row","id":"ckitb4k2v000r3g7a7lwgeicl","slotName":"ckitb4k2u000q3g7abzfq4n7s"},{"type":"row","id":"ckitb4z7j00153g7axqb7p1ai","columns":[{"type":"column","id":"ckitb4vf100103g7ax6zp8fdo","slotName":"ckitb4vf0000z3g7aqcem36jx","size":"4"},{"type":"column","id":"ckitb4z7j00143g7agu48sggu","slotName":"ckitb4z7i00133g7ad7ae92wq","size":"4"},{"type":"column","id":"ckitb52m100193g7a09meqfp3","slotName":"ckitb52m100183g7axtsevhbg","size":"4"}]},{"type":"row","id":"ckj8xcudw00133g7al3sh8vk9","slotName":"ckj8xcudw00123g7a2t5oz1pb"},{"type":"row","id":"ckj8x9a8y000c3g7a414f9nec","slotName":"ckj8x9a8y000b3g7a3j12nwtz"},{"type":"row","slotName":"ckon9e698000k3b7cai14wvgi","id":"ckon9e698000l3b7cbzt3bcfb"},{"type":"row","id":"ckon0mf18000j3b7cccud01lu","slotName":"ckon0mf17000i3b7ceq8ea67j"},{"type":"row","id":"ckj8xerkp00173g7ap4iqjgd2","slotName":"ckj8xerko00163g7agmeepuuk"},{"type":"row","id":"ckitbb3m5001j3g7a6ut44sdv","slotName":"ckitbb3lx001i3g7a9824n0vd"}]},
     "items" : null,
     "rules" : null,
     "styles" : null
@@ -430,13 +514,13 @@
         <sys_created_by>james.belote</sys_created_by>
         <sys_created_on>2020-12-17 20:32:21</sys_created_on>
         <sys_id>2ee1e70f1bcda81077bc2f092a4bcb5a</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Admin Support Dashboard</sys_name>
         <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
         <sys_policy/>
         <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
         <sys_update_name>sys_ux_macroponent_2ee1e70f1bcda81077bc2f092a4bcb5a</sys_update_name>
-        <sys_updated_by>james.belote</sys_updated_by>
-        <sys_updated_on>2021-01-20 14:15:15</sys_updated_on>
+        <sys_updated_by>dan.munk</sys_updated_by>
+        <sys_updated_on>2021-05-13 19:03:06</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

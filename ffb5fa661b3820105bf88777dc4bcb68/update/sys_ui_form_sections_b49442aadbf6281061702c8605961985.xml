@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b49442aadbf6281061702c8605961985" sys_domain="global" table="customer_account" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-03-13 00:17:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>899442aadbf6281061702c86059619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="4f263f221b6f9410ad031f4d2b4bcb11">b49442aadbf6281061702c8605961985</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="4f263f221b6f9410ad031f4d2b4bcb11">749442aadbf6281061702c86059619d5</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-03-13 00:17:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-03-13 00:17:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c9442aadbf6281061702c86059619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="4f263f221b6f9410ad031f4d2b4bcb11">b49442aadbf6281061702c8605961985</sys_ui_form>
+            <sys_ui_section caption="Contact" display_value="Contact" name="customer_account" sys_domain="global" view="4f263f221b6f9410ad031f4d2b4bcb11">3c9442aadbf6281061702c860596198f</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-03-13 00:17:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-03-13 00:17:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>499442aadbf6281061702c86059619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="4f263f221b6f9410ad031f4d2b4bcb11">b49442aadbf6281061702c8605961985</sys_ui_form>
+            <sys_ui_section caption="Profile" display_value="Profile" name="customer_account" sys_domain="global" view="4f263f221b6f9410ad031f4d2b4bcb11">819442aadbf6281061702c86059619e0</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-03-13 00:17:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-03-13 00:17:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>349442aadbf6281061702c860596198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="4f263f221b6f9410ad031f4d2b4bcb11">b49442aadbf6281061702c8605961985</sys_ui_form>
+            <sys_ui_section caption="Risk Scoring" display_value="Risk Scoring" name="customer_account" sys_domain="global" view="4f263f221b6f9410ad031f4d2b4bcb11">b49442aadbf6281061702c8605961987</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-03-13 00:17:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>customer_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-03-13 00:17:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b49442aadbf6281061702c8605961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_account</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b49442aadbf6281061702c8605961985</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-03-13 00:17:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Vendor Risk" name="vendor_risk">4f263f221b6f9410ad031f4d2b4bcb11</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

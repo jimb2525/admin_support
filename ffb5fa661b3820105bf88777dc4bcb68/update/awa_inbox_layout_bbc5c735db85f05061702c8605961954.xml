@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_inbox_layout">
+    <awa_inbox_layout action="INSERT_OR_UPDATE">
+        <card_layout><![CDATA[<img src="awa_card_layout_guide.png" width="349" height="300" />]]></card_layout>
+        <condition/>
+        <field_1>matter_name</field_1>
+        <field_2/>
+        <field_3/>
+        <field_4/>
+        <field_5/>
+        <is_default>true</is_default>
+        <name>Default Admin Support Jobs layout</name>
+        <order>1000000</order>
+        <service_channel display_value="Admin Support Jobs">bda54735db85f05061702c860596191b</service_channel>
+        <short_description>Default inbox layout for the Admin Support Jobs Service Channel</short_description>
+        <sys_class_name>awa_inbox_layout</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-06-30 17:28:18</sys_created_on>
+        <sys_id>bbc5c735db85f05061702c8605961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default Admin Support Jobs layout</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>awa_inbox_layout_bbc5c735db85f05061702c8605961954</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-06-30 17:28:18</sys_updated_on>
+    </awa_inbox_layout>
+</record_update>

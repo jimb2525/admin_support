@@ -12,7 +12,6 @@
         <description>Check Request Chrome Rive Process - Expense</description>
         <internal_name>check_request_chrome_rive_process__expense</internal_name>
         <label_cache>[{"name":"c23a6355-1aa3-473f-93ea-977649ea4d90.Table","label":"2➛Job Tasks Table","reference":"x_paha_admin_suppo_job_tasks","reference_display":"Job Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c23a6355-1aa3-473f-93ea-977649ea4d90.Record","label":"2➛Job Tasks Record","reference":"x_paha_admin_suppo_job_tasks","reference_display":"Job Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f89344e-b3ee-45ab-ad24-21ecd2e68cbf.Table","label":"1➛Job Tasks Table","reference":"x_paha_admin_suppo_job_tasks","reference_display":"Job Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f89344e-b3ee-45ab-ad24-21ecd2e68cbf.Record","label":"1➛Job Tasks Record","reference":"x_paha_admin_suppo_job_tasks","reference_display":"Job Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.parent","label":"Input➛Parent","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"279012d9-c62a-4a5e-9114-29deee6d70c4","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
-        <latest_snapshot>c6d408d91bc964105bf88777dc4bcbc0</latest_snapshot>
         <master_snapshot>1af6e7891b8964105bf88777dc4bcb61</master_snapshot>
         <name>Check Request Chrome Rive Process - Expense</name>
         <natlang/>
@@ -940,4 +939,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>376663891b8964105bf88777dc4bcba0</sys_id>
+        <latest_snapshot>1af6e7891b8964105bf88777dc4bcb61</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

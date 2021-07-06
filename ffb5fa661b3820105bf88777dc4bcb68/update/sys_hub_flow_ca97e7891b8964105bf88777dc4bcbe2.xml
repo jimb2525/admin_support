@@ -12,7 +12,6 @@
         <description>Invoice Process Chrome River Process - Invoice </description>
         <internal_name>invoice_process_chrome_river_process__invoice</internal_name>
         <label_cache>[{"name":"9f00a4c7-a714-41e3-9ab5-547b368fe78d.Table","label":"2➛Job Tasks Table","reference":"x_paha_admin_suppo_job_tasks","reference_display":"Job Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f00a4c7-a714-41e3-9ab5-547b368fe78d.Record","label":"2➛Job Tasks Record","reference":"x_paha_admin_suppo_job_tasks","reference_display":"Job Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5e4f9f4-2613-4c9d-a67f-f68f8440519c.Table","label":"1➛Job Tasks Table","reference":"x_paha_admin_suppo_job_tasks","reference_display":"Job Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5e4f9f4-2613-4c9d-a67f-f68f8440519c.Record","label":"1➛Job Tasks Record","reference":"x_paha_admin_suppo_job_tasks","reference_display":"Job Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>34cbe34d1b8964105bf88777dc4bcb14</latest_snapshot>
         <master_snapshot>faa8e7c91b8964105bf88777dc4bcb03</master_snapshot>
         <name>Invoice Process Chrome River Process - Invoice </name>
         <natlang/>
@@ -732,4 +731,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>ca97e7891b8964105bf88777dc4bcbe2</sys_id>
+        <latest_snapshot>faa8e7c91b8964105bf88777dc4bcb03</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

@@ -42,6 +42,20 @@
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2020-12-04 16:14:10</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-03-29 21:14:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efad7c0c1b9bac10ad031f4d2b4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_paha_admin_suppo_job" name="x_paha_admin_suppo_job" sys_domain="global" view="Default view">2d2aa3f21bb060105bf88777dc4bcb3f</sys_ui_form>
+            <sys_ui_section caption="Special Handling Notes" display_value="Special Handling Notes" name="x_paha_admin_suppo_job" sys_domain="global" view="Default view">5bad3c0c1b9bac10ad031f4d2b4bcb60</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-03-29 21:14:18</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_paha_admin_suppo_job</name>
             <roles/>

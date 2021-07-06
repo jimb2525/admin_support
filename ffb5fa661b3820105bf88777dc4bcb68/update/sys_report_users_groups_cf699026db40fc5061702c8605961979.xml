@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Pie on Job table by priority created by James Belote: 2021-05-13 14:47:39">4b699026db40fc5061702c8605961978</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-13 19:47:48</sys_created_on>
+        <sys_id>cf699026db40fc5061702c8605961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4b699026db40fc5061702c8605961978</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_report_users_groups_cf699026db40fc5061702c8605961979</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-13 19:47:48</sys_updated_on>
+        <user_id display_value="James Belote">670654241b8ce010ad031f4d2b4bcb98</user_id>
+    </sys_report_users_groups>
+</record_update>

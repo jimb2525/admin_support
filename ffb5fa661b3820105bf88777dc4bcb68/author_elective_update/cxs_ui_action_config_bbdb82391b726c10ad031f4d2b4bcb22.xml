@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="DELETE">
+        <action_condition/>
+        <action_label>Attach</action_label>
+        <action_undo_label/>
+        <action_value>attach</action_value>
+        <active>true</active>
+        <advanced_visibility>false</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type>embed_link</attachment_type>
+        <badge_label>Attached</badge_label>
+        <current_action_condition/>
+        <current_table/>
+        <order>100</order>
+        <rest_api/>
+        <search_res_config/>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.KnowledgeSearchResource</search_resource>
+        <search_ui_action display_value="Attach">d587f286872a0300692cbba826cb0b6a</search_ui_action>
+        <search_ui_config display_value="Job [x_paha_admin_suppo_job]">5dab0ef51b726c10ad031f4d2b4bcb2a</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-03-10 16:53:54</sys_created_on>
+        <sys_id>bbdb82391b726c10ad031f4d2b4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attach</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>cxs_ui_action_config_bbdb82391b726c10ad031f4d2b4bcb22</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-03-10 16:53:54</sys_updated_on>
+        <table>kb_knowledge</table>
+        <trend_recommendation/>
+        <ui_action_visibility_script/>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="DELETE" query="documentkey=bbdb82391b726c10ad031f4d2b4bcb22"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</application>
+        <file_path/>
+        <instance_id>e2c19596db7ad4d45749cac505961996</instance_id>
+        <instance_name>jbelote10demo</instance_name>
+        <name>cxs_ui_action_config_bbdb82391b726c10ad031f4d2b4bcb22</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config"><cxs_ui_action_config action="INSERT_OR_UPDATE"><action_condition/><action_label>Attach</action_label><action_undo_label/><action_value>attach</action_value><active>true</active><advanced_visibility>false</advanced_visibility><attach_note_field>comments</attach_note_field><attachment_type>embed_link</attachment_type><badge_label>Attached</badge_label><current_action_condition/><current_table/><order>100</order><rest_api/><search_res_config/><search_resource display_value="">com.snc.contextual_search.search_resource.KnowledgeSearchResource</search_resource><search_ui_action display_value="Attach">d587f286872a0300692cbba826cb0b6a</search_ui_action><search_ui_config display_value="Job [x_paha_admin_suppo_job]">5dab0ef51b726c10ad031f4d2b4bcb2a</search_ui_config><show_on_new>false</show_on_new><sys_class_name>cxs_ui_action_config</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-03-10 16:53:54</sys_created_on><sys_id>bbdb82391b726c10ad031f4d2b4bcb22</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Attach</sys_name><sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package><sys_policy/><sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope><sys_update_name>cxs_ui_action_config_bbdb82391b726c10ad031f4d2b4bcb22</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-03-10 16:53:54</sys_updated_on><table>kb_knowledge</table><trend_recommendation/><ui_action_visibility_script/><use_custom_field_for_attach>false</use_custom_field_for_attach></cxs_ui_action_config><sys_translated_text action="delete_multiple" query="documentkey=bbdb82391b726c10ad031f4d2b4bcb22"/></record_update>]]></payload>
+        <payload_hash>-300474486</payload_hash>
+        <record_name>Attach</record_name>
+        <reverted_from/>
+        <source>908b547ddb8e241061702c8605961992</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-03-10 16:53:55</sys_created_on>
+        <sys_id>3bdbc6391b726c10ad031f4d2b4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1781d0f251e0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-03-10 16:53:55</sys_updated_on>
+        <type>Search Action Configuration</type>
+        <update_guid>33dbc63985726c1014660c61e77e7efa</update_guid>
+        <update_guid_history>33dbc63985726c1014660c61e77e7efa:-300474486</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Attach">632cce391b726c10ad031f4d2b4bcbe1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-03-10 16:55:15</sys_created_on>
+        <sys_db_object display_value="" name="cxs_ui_action_config">cxs_ui_action_config</sys_db_object>
+        <sys_id>28e769dd12ca42568b9c652cf719aa69</sys_id>
+        <sys_metadata>bbdb82391b726c10ad031f4d2b4bcb22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attach</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_scope_delete display_value="">01b9274a4744461895fbc8eae6a96d10</sys_scope_delete>
+        <sys_update_name>cxs_ui_action_config_bbdb82391b726c10ad031f4d2b4bcb22</sys_update_name>
+        <sys_update_version display_value="cxs_ui_action_config_bbdb82391b726c10ad031f4d2b4bcb22">3bdbc6391b726c10ad031f4d2b4bcbfa</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-03-10 16:55:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

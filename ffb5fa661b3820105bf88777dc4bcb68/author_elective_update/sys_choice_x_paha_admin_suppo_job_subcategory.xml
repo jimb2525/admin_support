@@ -17,6 +17,26 @@
             <sys_updated_on>2020-12-11 14:33:23</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>litigation</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Schedule a Deposition</label>
+            <language>en</language>
+            <name>x_paha_admin_suppo_job</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-06-30 16:17:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d85f675db05f05061702c8605961943</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-06-30 16:18:13</sys_updated_on>
+            <value>schedule_a_deposition</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>administrative</dependent_value>
             <element>subcategory</element>
             <hint/>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_queue">
+    <awa_queue action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <average_wait_time>1970-01-01 00:00:30</average_wait_time>
+        <ccc_source_id/>
+        <condition/>
+        <condition_mode>simple</condition_mode>
+        <condition_script><![CDATA[(function executeCondition(/* glide record */ current) {  
+	// customize condition logic here, return true or false  
+	return false;
+})(current);]]></condition_script>
+        <initial_agent_response>Thank you for contacting support. I am looking into your question now and will be with you shortly.</initial_agent_response>
+        <max_wait_time>1970-01-01 04:00:00</max_wait_time>
+        <name>New York Office Queue</name>
+        <number>QUE00002</number>
+        <order>100</order>
+        <schedule display_value="8-5 weekdays">08fcd0830a0a0b2600079f56b1adb9ae</schedule>
+        <service_channel display_value="Admin Support Jobs">bda54735db85f05061702c860596191b</service_channel>
+        <short_description>New York Office Queue</short_description>
+        <sys_class_name>awa_queue</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-06-30 17:30:40</sys_created_on>
+        <sys_id>e6064375db85f05061702c860596198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New York Office Queue</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>awa_queue_e6064375db85f05061702c860596198f</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-06-30 17:30:40</sys_updated_on>
+        <target_wait_time>1970-01-01 01:00:00</target_wait_time>
+        <use_condition>true</use_condition>
+    </awa_queue>
+</record_update>

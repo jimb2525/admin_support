@@ -12,7 +12,6 @@
         <description/>
         <internal_name>job_request_flow</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.number","label":"Trigger➛Job Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_paha_admin_suppo_job","column_name":"number"},{"name":"Created or Updated_1.current.subcategory","label":"Trigger➛Job Record➛SubCategory","reference":"","reference_display":"SubCategory","type":"choice","base_type":"choice","parent_table_name":"x_paha_admin_suppo_job","column_name":"subcategory"}]</label_cache>
-        <latest_snapshot>ea150cd91bc964105bf88777dc4bcb81</latest_snapshot>
         <master_snapshot>3bbb634d1b8964105bf88777dc4bcbe5</master_snapshot>
         <name>Job Request Flow</name>
         <natlang/>
@@ -1451,4 +1450,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>3dc8e7c91b8964105bf88777dc4bcbf6</sys_id>
+        <latest_snapshot>3bbb634d1b8964105bf88777dc4bcbe5</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

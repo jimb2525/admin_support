@@ -12,7 +12,6 @@
         <description/>
         <internal_name>send_email_on_declined_work</internal_name>
         <label_cache>[{"name":"Updated_1.current.opened_by.u_team_lead.email","label":"Trigger➛Job Record➛Opened by➛Resource Team Lead➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"c2c63c98-a463-4ce7-9412-8c0684b69016.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Job Record","reference":"x_paha_admin_suppo_job","reference_display":"Job","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.opened_by","label":"Trigger➛Job Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_paha_admin_suppo_job","column_name":"opened_by"},{"name":"Updated_1.current.number","label":"Trigger➛Job Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_paha_admin_suppo_job","column_name":"number"},{"name":"Updated_1.current.opened_by.first_name","label":"Trigger➛Job Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.short_description","label":"Trigger➛Job Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_paha_admin_suppo_job","column_name":"short_description"}]</label_cache>
-        <latest_snapshot>164f089c1b7da01077bc2f092a4bcb91</latest_snapshot>
         <master_snapshot>e4b93bae1b55a41077bc2f092a4bcbc8</master_snapshot>
         <name>Send email on Declined Work</name>
         <natlang/>
@@ -1542,4 +1541,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>937c4bae1bd1a41077bc2f092a4bcb3f</sys_id>
+        <latest_snapshot>e4b93bae1b55a41077bc2f092a4bcbc8</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

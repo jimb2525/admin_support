@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Job" max_length="40" name="x_paha_admin_suppo_job" sizeclass="51" text_index="true" type="collection">
+    <element audit="true" extends="task" label="Job" max_length="40" name="x_paha_admin_suppo_job" sizeclass="38" text_index="true" type="collection">
         <element choice="1" label="Client" mandatory="true" max_length="40" name="client" type="choice">
             <choice/>
         </element>
-        <element label="Client Number" mandatory="true" max_length="100" name="client_number" type="string"/>
+        <element label="Client Number" max_length="100" name="client_number" type="string"/>
         <element label="Declined Work" max_length="40" name="declined_work" type="boolean"/>
-        <element display="true" label="Matter Name" mandatory="true" max_length="32" name="matter_name" reference="x_paha_admin_suppo_client_matters" type="reference"/>
-        <element label="Matter Number" mandatory="true" max_length="32" name="matter_number" reference="x_paha_admin_suppo_client_matters" type="reference"/>
+        <element display="true" label="Matter Name" max_length="32" name="matter_name" reference="x_paha_admin_suppo_client_matters" type="reference"/>
+        <element label="Matter Number" max_length="32" name="matter_number" reference="x_paha_admin_suppo_client_matters" type="reference"/>
         <element choice="1" dependent="u_category" dependent_on_field="u_category" label="Task" mandatory="true" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
             <choice>
+                <element dependent_value="litigation" inactive_on_update="false" label="Schedule a Deposition" value="schedule_a_deposition"/>
                 <element dependent_value="administrative" inactive_on_update="false" label="Audit Letter Process" sequence="100" value="audit_letter_process"/>
                 <element dependent_value="administrative" inactive_on_update="false" label="Billing Rates" sequence="101" value="billing_rates"/>
                 <element dependent_value="administrative" inactive_on_update="false" label="Bios" sequence="102" value="bios"/>
@@ -64,7 +65,7 @@
                 <element inactive_on_update="false" label="Transactional" sequence="300" value="transactional"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="manual_entry" label="Channel" mandatory="true" max_length="40" name="u_channel" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="manual_entry" label="Channel" max_length="40" name="u_channel" type="string">
             <choice>
                 <element inactive_on_update="false" label="Manual Entry" sequence="0" value="manual_entry"/>
                 <element inactive_on_update="false" label="Email" sequence="1" value="email"/>
@@ -73,7 +74,7 @@
                 <element inactive_on_update="false" label="Phone" sequence="4" value="Phone"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Resource" mandatory="true" max_length="40" name="u_dept_referra" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Resource" max_length="40" name="u_dept_referra" type="string">
             <choice>
                 <element inactive_on_update="false" label="Bdev" sequence="1" value="bdev"/>
                 <element inactive_on_update="false" label="Conflicts" sequence="2" value="conflicts"/>

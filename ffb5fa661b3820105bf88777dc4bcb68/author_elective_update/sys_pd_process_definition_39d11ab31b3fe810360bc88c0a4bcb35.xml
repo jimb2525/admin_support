@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <active>true</active>
+        <description/>
+        <label>Test</label>
+        <name>test</name>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-05 15:30:38</sys_created_on>
+        <sys_id>39d11ab31b3fe810360bc88c0a4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_pd_process_definition_39d11ab31b3fe810360bc88c0a4bcb35</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-05 15:30:38</sys_updated_on>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="DELETE">
+        <active>true</active>
+        <description/>
+        <label>Test</label>
+        <name>test</name>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-05 15:30:38</sys_created_on>
+        <sys_id>39d11ab31b3fe810360bc88c0a4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_update_name>sys_pd_process_definition_39d11ab31b3fe810360bc88c0a4bcb35</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-05 15:30:38</sys_updated_on>
+    </sys_pd_process_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</application>
+        <file_path/>
+        <instance_id>e2c19596db7ad4d45749cac505961996</instance_id>
+        <instance_name>jbelote10demo</instance_name>
+        <name>sys_pd_process_definition_39d11ab31b3fe810360bc88c0a4bcb35</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><active>true</active><description/><label>Test</label><name>test</name><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-05-05 15:30:38</sys_created_on><sys_id>39d11ab31b3fe810360bc88c0a4bcb35</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package><sys_policy/><sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope><sys_update_name>sys_pd_process_definition_39d11ab31b3fe810360bc88c0a4bcb35</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-05-05 15:30:38</sys_updated_on></sys_pd_process_definition><sys_pd_process_definition action="INSERT_OR_UPDATE"><active>true</active><description/><label>Test</label><name>test</name><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-05-05 15:30:38</sys_created_on><sys_id>39d11ab31b3fe810360bc88c0a4bcb35</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package><sys_policy/><sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope><sys_update_name>sys_pd_process_definition_39d11ab31b3fe810360bc88c0a4bcb35</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-05-05 15:30:38</sys_updated_on></sys_pd_process_definition></record_update>]]></payload>
+        <payload_hash>-2038505007</payload_hash>
+        <record_name>Test</record_name>
+        <reverted_from/>
+        <source>908b547ddb8e241061702c8605961992</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-05 15:30:38</sys_created_on>
+        <sys_id>31d11ab31b3fe810360bc88c0a4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1793d2706ca0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-05 15:30:38</sys_updated_on>
+        <type>Process Definitions</type>
+        <update_guid>39d11ab3293fe8106dc54835956f7939</update_guid>
+        <update_guid_history>39d11ab3293fe8106dc54835956f7939:-2038505007</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-05 15:54:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>13ea0bbbc8d9494390ccf8daeafdca59</sys_id>
+        <sys_metadata>39d11ab31b3fe810360bc88c0a4bcb35</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Admin Support" source="x_paha_admin_suppo">ffb5fa661b3820105bf88777dc4bcb68</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Admin Support">ffb5fa661b3820105bf88777dc4bcb68</sys_scope>
+        <sys_scope_delete display_value="">01b9274a4744461895fbc8eae6a96d10</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_39d11ab31b3fe810360bc88c0a4bcb35</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_39d11ab31b3fe810360bc88c0a4bcb35">31d11ab31b3fe810360bc88c0a4bcb3a</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-05 15:54:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
